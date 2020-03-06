@@ -35,8 +35,13 @@ a.href:hover {
 }
 
 .container a {
-    flex-direction: row;
+    display: contents;
+    text-decoration: none; 
+}
 
+.container a:visited { 
+    color:blue; 
+    text-decoration: none; 
 }
 
 a.button {
