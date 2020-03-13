@@ -14,35 +14,21 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;    
-    flex-direction: column;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-        
-    
 }
 
-.content {
-    margin-bottom: 30px;
-    background-image: url("assets/bubble1.png");
-    background-repeat: no-repeat, repeat;
-}
-
-.photo img {
+.sticker img {
     position: absolute;
-    width: 103px;
-    height: 127px;
-    left: 549px;
-    top: 333px;
+    width: 124px;
+    height: 113px;
+    left: 548px;
+    top: 338px;
+
 }
 
 .text {
     position: absolute;
-    width: 253px;
+    width: 379px;
     height: 33px;
     left: 548px;
     top: 290px;
@@ -63,14 +49,17 @@
     top: 251px;
 }
 
-.btn {
-    position: flex;
-    width: 218px;
+
+.hello {
+    position: relative;
+}
+
+.contacts {
+    width: 331px;
     height: 106px;
-    left: 611px;
+    left: 399px;
     top: 526px;
 
-    
     background-color: #FFFF00;
     border: 6px solid #FFFF00;
     box-sizing: border-box;
@@ -88,6 +77,26 @@
     color: rgba(0, 0, 255, 0.98);
 }
 
-.hello {
-    position: relative;
+.practice {
+
+    width: 227px;
+    height: 106px;
+    left: 790px;
+    top: 526px;
+
+    background-color: #FFFF00;
+    border: 6px solid #FFFF00;
+    box-sizing: border-box;
+    box-shadow: 7px 9px 12px rgba(0, 0, 255, 0.2);
+    border-radius: 33px;
+
+    font-family: RobotoBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 255, 0.98);
 }

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url(../assets/Roboto-Bold.ttf);
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 472px;
+    height: 93px;
+    left: 494px;
+}
+
+.bubble1 img {
+    top: 176px;
+}
+
+.bubble2 img {
+    top: 283px;
+}
+
+k {
+    position: absolute;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.bubble1 k {
+    width: 189px;
+    height: 33px;
+    left: 534px;
+    top: 211px;
+}
+
+.bubble2 k {
+    width: 180px;
+    height: 33px;
+    left: 534px;
+    top: 318px;
+    color: violet;
+}

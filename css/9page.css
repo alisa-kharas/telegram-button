@@ -14,35 +14,21 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;    
-    flex-direction: column;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-        
-    
+
 }
 
-.content {
-    margin-bottom: 30px;
-    background-image: url("assets/bubble1.png");
-    background-repeat: no-repeat, repeat;
-}
-
-.photo img {
+.sticker img {
     position: absolute;
-    width: 103px;
-    height: 127px;
-    left: 549px;
-    top: 333px;
+    width: 162px;
+    height: 86px;
+    left: 548px;
+    top: 353px;
 }
 
 .text {
     position: absolute;
-    width: 253px;
+    width: 291px;
     height: 33px;
     left: 548px;
     top: 290px;
