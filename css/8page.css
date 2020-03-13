@@ -21,15 +21,11 @@
 .box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-        
-    
+    justify-content: center;      
 }
 
 .content {
     margin-bottom: 30px;
-    background-image: url("assets/bubble1.png");
-    background-repeat: no-repeat, repeat;
 }
 
 .photo img {
@@ -56,7 +52,7 @@
     color: #FFFFFF;
 }
 
-.bubble img {
+.box img {
     width: 468px;
     height: 237px;
     left: 495px;
