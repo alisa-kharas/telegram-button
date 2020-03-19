@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -43,8 +44,8 @@
 }
 
 .bubble img {
-    width: 468px;
-    height: 237px;
+    width: 473px;
+    height: 235px;
     left: 495px;
     top: 251px;
 }
@@ -76,4 +77,5 @@
 
 .hello {
     position: relative;
+    margin-top: 20px;
 }

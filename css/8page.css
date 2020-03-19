@@ -14,31 +14,22 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     flex-direction: column;
+
 }
 
-.box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;      
-}
-
-.content {
-    margin-bottom: 30px;
-}
-
-.photo img {
+.sticker img {
     position: absolute;
-    width: 103px;
-    height: 127px;
-    left: 549px;
-    top: 333px;
+    width: 162px;
+    height: 86px;
+    left: 548px;
+    top: 353px;
 }
 
 .text {
     position: absolute;
-    width: 253px;
+    width: 291px;
     height: 33px;
     left: 548px;
     top: 290px;
@@ -52,9 +43,9 @@
     color: #FFFFFF;
 }
 
-.box img {
-    width: 468px;
-    height: 237px;
+.bubble img {
+    width: 473px;
+    height: 235px;
     left: 495px;
     top: 251px;
 }
@@ -86,4 +77,5 @@
 
 .hello {
     position: relative;
+    margin-top: 20px;
 }

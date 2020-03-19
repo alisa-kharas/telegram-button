@@ -15,20 +15,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+
 }
 
 .sticker img {
     position: absolute;
-    width: 124px;
-    height: 113px;
+    width: 162px;
+    height: 86px;
     left: 548px;
-    top: 338px;
-
+    top: 353px;
 }
 
 .text {
     position: absolute;
-    width: 379px;
+    width: 291px;
     height: 33px;
     left: 548px;
     top: 290px;
@@ -43,60 +44,64 @@
 }
 
 .bubble img {
-    width: 468px;
-    height: 237px;
+    width: 473px;
+    height: 235px;
     left: 495px;
     top: 251px;
 }
 
+.btn {
+    position: flex;
+    width: 218px;
+    height: 106px;
+    left: 611px;
+    top: 526px;
+
+    
+    background-color: #FFFF00;
+    border: 6px solid #FFFF00;
+    box-sizing: border-box;
+    box-shadow: 7px 9px 12px rgba(0, 0, 255, 0.2);
+    border-radius: 33px;
+
+    font-family: RobotoBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 255, 0.98);
+}
+
+.knopki {
+    display: flex;
+    flex-direction: row;
+}
 
 .hello {
     position: relative;
+    margin-top: 20px;
+    margin-right: 30px;
 }
 
-.contacts {
+.second {
+    position: relative;
+    margin-top: 20px;
+}
+
+.it {
     width: 331px;
     height: 106px;
-    left: 399px;
-    top: 526px;
-
-    background-color: #FFFF00;
-    border: 6px solid #FFFF00;
-    box-sizing: border-box;
-    box-shadow: 7px 9px 12px rgba(0, 0, 255, 0.2);
-    border-radius: 33px;
-
-    font-family: RobotoBold;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: rgba(0, 0, 255, 0.98);
 }
 
-.practice {
+@media only screen and (max-width: 1000px) {
+    .knopki {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
 
-    width: 227px;
-    height: 106px;
-    left: 790px;
-    top: 526px;
-
-    background-color: #FFFF00;
-    border: 6px solid #FFFF00;
-    box-sizing: border-box;
-    box-shadow: 7px 9px 12px rgba(0, 0, 255, 0.2);
-    border-radius: 33px;
-
-    font-family: RobotoBold;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: rgba(0, 0, 255, 0.98);
 }
